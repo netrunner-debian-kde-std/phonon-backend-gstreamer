@@ -1,0 +1,4 @@
+version=3
+
+opts=uversionmangle=s/^/4.6.0really/ \
+ ftp://ftp.kde.org/pub/kde/stable/phonon/phonon-backend-gstreamer/([\d.]+)/src/ phonon-backend-gstreamer-([\d.]+).tar.bz2

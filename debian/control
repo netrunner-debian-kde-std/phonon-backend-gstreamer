@@ -1,0 +1,33 @@
+Source: phonon-backend-gstreamer
+Section: sound
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), cmake (>= 2.6.2),
+ pkg-kde-tools (>= 0.9), automoc, libphonon-dev (>= 4:4.6.0really4.4.4),
+ libphononexperimental-dev (>= 4:4.6.0really4.4.4),
+ libasound2-dev [linux-any], libglib2.0-dev, libgstreamer0.10-dev,
+ libgstreamer-plugins-base0.10-dev, libxml2-dev, libqt4-dev (>= 4.5),
+ libgl1-mesa-dev, libqt4-opengl-dev (>= 4.5)
+Standards-Version: 3.9.1
+Homepage: http://phonon.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/phonon-backend-gstreamer.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/phonon-backend-gstreamer.git
+
+Package: phonon-backend-gstreamer
+Architecture: any
+Provides: phonon-backend
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ gstreamer0.10-plugins-base, gstreamer0.10-alsa [linux-any]
+Recommends: gstreamer0.10-plugins-good
+Suggests: gstreamer0.10-plugins-ugly
+Description: Phonon GStreamer 0.10.x backend
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains GStreamer 0.10.x backend for Phonon.
+ .
+ You should install gstreamer0.10-plugins-good to get support for playing
+ popular free multimedia formats and gstreamer0.10-plugins-ugly to get support
+ for popular MPEG audio formats like MP3.
+

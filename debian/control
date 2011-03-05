@@ -32,8 +32,10 @@ Description: Phonon GStreamer 0.10.x backend
  for popular MPEG audio formats like MP3.
 
 Package: phonon-backend-gstreamer-dbg
+Section: debug
+Priority: extra
 Architecture: any
-Depends: phonon-backend-gstreamer (= ${binary:Version})
+Depends: ${misc:Depends}, phonon-backend-gstreamer (= ${binary:Version})
 Replaces: phonon-dbg (<< 4:4.6.0really4.4.4)
 Breaks: phonon-dbg (<< 4:4.6.0really4.4.4)
 Description: debugging symbols for the Phonon GStreamer 0.10.x backend

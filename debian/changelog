@@ -2,6 +2,8 @@ phonon-backend-gstreamer (4:4.6.0really4.4.4-3) UNRELEASED; urgency=low
 
   * Readd packaging copyright to debian/copyright.
   * Fix typo in phonon-backend-gstreamer-dbg description.
+  * Set priority: extra, section: debug and add ${misc:Depends} to
+    phonon-backend-gstreamer-dbg package.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 04:27:38 +0200
 

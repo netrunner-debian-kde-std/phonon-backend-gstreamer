@@ -1,9 +1,9 @@
-phonon-backend-gstreamer (4:4.6.0really4.4.4-2) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.6.0really4.4.4-2) experimental; urgency=low
 
   * Add phonon-backend-gstreamer-dbg package.
   * Improve phonon-backend-gstreamer package description.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 02:53:40 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 03:17:08 +0200
 
 phonon-backend-gstreamer (4:4.6.0really4.4.4-1) experimental; urgency=low
 

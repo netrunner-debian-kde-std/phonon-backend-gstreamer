@@ -22,10 +22,10 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
 Recommends: gstreamer0.10-plugins-good
 Suggests: gstreamer0.10-plugins-ugly
 Description: Phonon GStreamer 0.10.x backend
- Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
- layer for capturing, mixing, processing, and playing audio and video content.
- .
- This package contains GStreamer 0.10.x backend for Phonon.
+ This package contains GStreamer 0.10.x backend for Phonon multimedia
+ framework. It transparently adapts and reroutes all requests from Phonon
+ applications to the GStreamer framework which in turn performs requested
+ audio/video decoding/capture tasks.
  .
  You should install gstreamer0.10-plugins-good to get support for playing
  popular free multimedia formats and gstreamer0.10-plugins-ugly to get support

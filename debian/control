@@ -31,3 +31,13 @@ Description: Phonon GStreamer 0.10.x backend
  popular free multimedia formats and gstreamer0.10-plugins-ugly to get support
  for popular MPEG audio formats like MP3.
 
+Package: phonon-backend-gstreamer-dbg
+Architecture: any
+Depends: phonon-backend-gstreamer (= ${binary:Version})
+Replaces: phonon-dbg (<< 4:4.6.0really4.4.4)
+Breaks: phonon-dbg (<< 4:4.6.0really4.4.4)
+Description: debugging symbols fpr the Phonon GStreamer 0.10.x backend
+ This package contains debugging symbols for the Phonon GStreamer 0.10.x
+ backend. If you have a problem with this backend and wish to debug it or you
+ have been asked to provide a backtrace of the crash inside the Phonon
+ internals, you may find this package useful.

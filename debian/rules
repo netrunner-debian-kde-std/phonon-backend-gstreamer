@@ -1,9 +1,13 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_CMAKE_EXTRA_FLAGS += -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
-DEB_DESTDIR := $(CURDIR)/debian/tmp
+override_dh_auto_configure:
+	$(overriden_command) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
 
-DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
-DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
+override_dh_shlibdeps:
+	$(overriden_command) -- -xphonon
+
+override_dh_strip:
+	$(overriden_command) --dbg-package=phonon-backend-gstreamer-dbg
+

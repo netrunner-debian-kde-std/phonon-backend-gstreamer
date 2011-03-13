@@ -1,5 +1,6 @@
 phonon-backend-gstreamer (4:4.6.0really4.4.4-4) UNRELEASED; urgency=low
 
+  * Drop CDBS from build depends.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 13:22:54 +0200
 

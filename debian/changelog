@@ -2,6 +2,7 @@ phonon-backend-gstreamer (4:4.6.0really4.5.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Drop CDBS from build depends.
+  * Require libphonon*-dev 4.5.0 for building.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 13:22:54 +0200
 

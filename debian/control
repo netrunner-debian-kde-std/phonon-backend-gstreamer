@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7.4.13), cmake (>= 2.6.2), pkg-kde-tools (>= 0.11),
  libasound2-dev [linux-any], libglib2.0-dev, libgstreamer0.10-dev,
  libgstreamer-plugins-base0.10-dev, libxml2-dev, libqt4-dev (>= 4.5),
  libgl1-mesa-dev, libqt4-opengl-dev (>= 4.5)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/phonon-backend-gstreamer.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/phonon-backend-gstreamer.git

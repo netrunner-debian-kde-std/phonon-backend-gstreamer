@@ -1,5 +1,6 @@
-phonon-backend-gstreamer (4:4.6.0really4.5.0-2) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.6.0really4.5.1-1) UNRELEASED; urgency=low
 
+  * New upstream release.
   * Replace $(overriden_command) with $(overridden_command) in debian/rules.
     Requires pkg-kde-tools 0.12.
 

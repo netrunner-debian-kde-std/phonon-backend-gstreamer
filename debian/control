@@ -4,8 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>
 Build-Depends: debhelper (>= 7.4.13), cmake (>= 2.6.2), pkg-kde-tools (>= 0.12),
- automoc, libphonon-dev (>= 4:4.6.0really4.5.0),
- libphononexperimental-dev (>= 4:4.6.0really4.5.0),
+ automoc, libphonon-dev (>= 4:4.6.0.0), libphononexperimental-dev (>= 4:4.6.0.0),
  libasound2-dev [linux-any], libglib2.0-dev, libgstreamer0.10-dev,
  libgstreamer-plugins-base0.10-dev, libxml2-dev, libqt4-dev (>= 4.5),
  libgl1-mesa-dev, libqt4-opengl-dev (>= 4.5)

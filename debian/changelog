@@ -2,6 +2,7 @@ phonon-backend-gstreamer (4:4.6.0.0-1) UNRELEASED; urgency=low
 
   * New upstream release (4.6.0):
     - add .0 to the upstream version in order to kill "really" suffix.
+  * Require phonon 4.6.0 to build.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 19 Feb 2012 18:08:32 +0200
 

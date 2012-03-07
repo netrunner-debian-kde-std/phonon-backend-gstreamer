@@ -1,3 +1,10 @@
+phonon-backend-gstreamer (4:4.6.0.0-1+exp1) UNRELEASED; urgency=low
+
+  * Team upload.
+  * Convert for multiarch.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 07 Mar 2012 20:05:58 +0100
+
 phonon-backend-gstreamer (4:4.6.0.0-1) unstable; urgency=low
 
   * New upstream release (4.6.0):

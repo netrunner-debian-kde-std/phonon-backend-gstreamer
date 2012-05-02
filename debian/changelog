@@ -1,9 +1,16 @@
-phonon-backend-gstreamer (4:4.6.0.0-1+exp1) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.6.0.0-2) unstable; urgency=low
 
   * Team upload.
+
+  [ Felix Geyer ]
   * Convert for multiarch.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 07 Mar 2012 20:05:58 +0100
+  [ Fathi Boudra ]
+  * Bump Qt build dependency to 4:4.8.1.
+  * Bump Standards-Version to 3.9.3 (no changes needed).
+  * Bump debian/compat to 8.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 02 May 2012 15:08:02 +0300
 
 phonon-backend-gstreamer (4:4.6.0.0-1) unstable; urgency=low
 

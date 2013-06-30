@@ -1,6 +1,5 @@
-phonon-backend-gstreamer (4:4.6.3-1) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.6.3-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
   * New upstream release.
   * Fix watch file:
@@ -12,7 +11,7 @@ phonon-backend-gstreamer (4:4.6.3-1) UNRELEASED; urgency=low
   * Use canonical Vcs URLs.
   * Bump Standards-Version to 3.9.4, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jun 2013 22:21:35 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 29 Jun 2013 22:56:36 -0300
 
 phonon-backend-gstreamer (4:4.6.0.0-2) unstable; urgency=low
 

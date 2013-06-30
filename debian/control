@@ -2,7 +2,8 @@ Source: phonon-backend-gstreamer
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Modestas Vainius <modax@debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: automoc,
                cmake (>= 2.6.2),
                debhelper (>= 8.1.3~),

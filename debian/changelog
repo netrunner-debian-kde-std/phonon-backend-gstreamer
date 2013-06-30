@@ -6,6 +6,9 @@ phonon-backend-gstreamer (4:4.6.3-1) UNRELEASED; urgency=low
   * Fix watch file:
     - No need to use umangle anymore.
     - The tar file is now xz compressed.
+  * Use debhelper compat 9.
+    - Bump debian/compat.
+    - Bump debhelper build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jun 2013 22:21:35 -0300
 

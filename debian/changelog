@@ -1,5 +1,9 @@
 phonon-backend-gstreamer (4:4.6.3-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add gstreamer0.10-audiosink as an optional depends to the ALSA sink to
+    phonon-backend-gstreamer (Closes: #680977).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jul 2013 15:55:41 -0300
 
 phonon-backend-gstreamer (4:4.6.3-1) unstable; urgency=low

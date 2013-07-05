@@ -1,3 +1,7 @@
+phonon-backend-gstreamer (4:4.6.3-2) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jul 2013 15:55:41 -0300
+
 phonon-backend-gstreamer (4:4.6.3-1) unstable; urgency=low
 
   * Add myself to Uploaders.

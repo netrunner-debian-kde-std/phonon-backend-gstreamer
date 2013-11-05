@@ -1,4 +1,6 @@
-phonon-backend-gstreamer (4:4.6.3-2) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.7.0.0-0r1) UNRELEASED; urgency=low
+
+  * New upstream release (4.7.0).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add gstreamer0.10-audiosink as an optional depends to the ALSA sink to

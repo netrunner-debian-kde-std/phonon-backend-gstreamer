@@ -1,11 +1,10 @@
-phonon-backend-gstreamer (4:4.7.1-1) UNRELEASED; urgency=low
+phonon-backend-gstreamer (4:4.7.1-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Drop unneeded extra 0 in version.
   * Adjust build dependencies versions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Dec 2013 16:03:31 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 09 Dec 2013 16:36:06 -0300
 
 phonon-backend-gstreamer (4:4.7.0.0-1) unstable; urgency=low
 

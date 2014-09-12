@@ -28,12 +28,12 @@ Architecture: any
 Multi-Arch: same
 Provides: phonon-backend
 Pre-Depends: ${misc:Pre-Depends}
-Depends: gstreamer0.10-alsa [linux-any] | gstreamer0.10-audiosink,
-         gstreamer0.10-plugins-base,
+Depends: gstreamer1.0-alsa [linux-any] | gstreamer1.0-audiosink,
+         gstreamer1.0-plugins-base,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: gstreamer0.10-plugins-good
-Suggests: gstreamer0.10-plugins-ugly
+Recommends: gstreamer1.0-plugins-good
+Suggests: gstreamer1.0-plugins-ugly
 Description: Phonon GStreamer 0.10.x backend
  This package contains GStreamer 0.10.x backend for Phonon multimedia
  framework. It transparently adapts and reroutes all requests from Phonon

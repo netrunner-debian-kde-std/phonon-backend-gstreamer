@@ -5,6 +5,7 @@ phonon-backend-gstreamer (4:4.8.0-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
   * New upstream release.
+  * Build against gstreamer1.0
 
  -- Diane Trout <diane@ghic.org>  Mon, 18 Aug 2014 22:38:36 -0700
 

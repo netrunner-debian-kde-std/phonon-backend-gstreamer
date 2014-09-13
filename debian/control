@@ -14,14 +14,35 @@ Build-Depends: automoc,
                libgstreamer1.0-dev,
                libphonon-dev (>= 4:4.8.0~),
                libphononexperimental-dev (>= 4:4.8.0~),
+               libphonon4qt5-dev (>= 4:4.8.0~),
+               libphonon4qt5experimental-dev (>= 4:4.8.0~),
                libqt4-dev (>= 4:4.8.1),
                libqt4-opengl-dev (>= 4:4.8.1),
+               libqt5opengl5-dev,
                libxml2-dev,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/phonon-backend-gstreamer.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/phonon-backend-gstreamer.git
+
+Package: phonon-backend-gstreamer-common
+Architecture: any
+Multi-Arch: same
+Suggests: phonon-backend-gstreamer, phonon4qt5-backend-gstreamer
+Replaces: phonon-backend-gstreamer (<< 4:4.7.1+)
+Breaks: phonon-backend-gstreamer (<< 4:4.7.1+)
+Description: Phonon GStreamer 1.0.x backend icons
+ This package contains GStreamer 1.0.x backend for Phonon multimedia
+ framework. It transparently adapts and reroutes all requests from Phonon
+ applications to the GStreamer framework which in turn performs requested
+ audio/video decoding/capture tasks.
+ .
+ You should install gstreamer1.0-plugins-good to get support for playing
+ popular free multimedia formats and gstreamer1.0-plugins-ugly to get support
+ for popular MPEG audio formats like MP3.
+ .
+ This package contains icons used by Phonon and Phonon4Qt5 backends.
 
 Package: phonon-backend-gstreamer
 Architecture: any
@@ -59,4 +80,36 @@ Description: debugging symbols for the Phonon GStreamer 1.0 backend
  have been asked to provide a backtrace of the crash inside the Phonon
  internals, you may find this package useful.
 
+Package: phonon4qt5-backend-gstreamer
+Architecture: any
+Multi-Arch: same
+Provides: phonon-backend
+Pre-Depends: ${misc:Pre-Depends}
+Depends: phonon-backend-gstreamer-common (= ${binary:Version}),
+         gstreamer1.0-alsa [linux-any] | gstreamer1.0-audiosink,
+         gstreamer1.0-plugins-base,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: gstreamer1.0-plugins-good
+Suggests: gstreamer1.0-plugins-ugly
+Description: Phonon Qt5 GStreamer 1.0 backend
+ This package contains Qt5 GStreamer 1.0 backend for Phonon multimedia
+ framework. It transparently adapts and reroutes all requests from Phonon
+ applications to the GStreamer framework which in turn performs requested
+ audio/video decoding/capture tasks.
+ .
+ You should install gstreamer1.0-plugins-good to get support for playing
+ popular free multimedia formats and gstreamer1.0-plugins-ugly to get support
+ for popular MPEG audio formats like MP3.
 
+Package: phonon4qt5-backend-gstreamer-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: phonon4qt5-backend-gstreamer (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for the Phonon Qt5 GStreamer 1.0 backend
+ This package contains debugging symbols for the Phonon Qt5 GStreamer 1.0
+ backend. If you have a problem with this backend and wish to debug it or you
+ have been asked to provide a backtrace of the crash inside the Phonon
+ internals, you may find this package useful.

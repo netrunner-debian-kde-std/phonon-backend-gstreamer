@@ -7,8 +7,8 @@ phonon-backend-gstreamer (4:4.8.0-1) UNRELEASED; urgency=low
   * New upstream release.
   * Build against gstreamer1.0
   * Provide Qt5 build.
-    This required creating a -common package for the icons and desktop file
-    shared between the Qt4 and Qt5 versions.
+    This required creating a -common package for the icons shared between
+    the Qt4 and Qt5 versions.
   * Add myself to uploaders.
 
  -- Diane Trout <diane@ghic.org>  Mon, 18 Aug 2014 22:38:36 -0700

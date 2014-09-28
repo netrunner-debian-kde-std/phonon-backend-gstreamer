@@ -8,6 +8,11 @@ phonon-backend-gstreamer (4:4.8.0-2) UNRELEASED; urgency=low
   * Update cmake build-depends version to 2.8.6
   * Add gstreamer1.0-pulseaudio as one of the alternative drivers.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make the backend depend on both the pulseaudio and alsa/audiosink set of
+    gstreamer plugins (Closes: #762577). The footprint is small and we don't
+    force pulseaudio on our users.
+
  -- Diane Trout <diane@ghic.org>  Mon, 18 Aug 2014 22:38:36 -0700
 
 phonon-backend-gstreamer (4:4.8.0-1) unstable; urgency=low

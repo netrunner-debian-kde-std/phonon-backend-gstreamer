@@ -51,7 +51,7 @@ Multi-Arch: same
 Provides: phonon-backend
 Pre-Depends: ${misc:Pre-Depends}
 Depends: phonon-backend-gstreamer-common (= ${binary:Version}),
-         gstreamer1.0-pulseaudio |
+         gstreamer1.0-pulseaudio,
          gstreamer1.0-alsa [linux-any] | gstreamer1.0-audiosink,
          gstreamer1.0-plugins-base,
          ${misc:Depends},

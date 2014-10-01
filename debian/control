@@ -31,8 +31,8 @@ Package: phonon-backend-gstreamer-common
 Architecture: any
 Multi-Arch: same
 Suggests: phonon-backend-gstreamer, phonon4qt5-backend-gstreamer
-Replaces: phonon-backend-gstreamer (<< 4:4.7.1+)
-Breaks: phonon-backend-gstreamer (<< 4:4.7.1+)
+Replaces: phonon-backend-gstreamer (<< 4:4.8.0-2~)
+Breaks: phonon-backend-gstreamer (<< 4:4.8.0-2~)
 Description: Phonon GStreamer 1.0.x backend icons
  This package contains GStreamer 1.0.x backend for Phonon multimedia
  framework. It transparently adapts and reroutes all requests from Phonon

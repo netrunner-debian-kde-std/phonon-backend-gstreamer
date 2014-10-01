@@ -1,11 +1,10 @@
-phonon-backend-gstreamer (4:4.8.0-3) UNRELEASED; urgency=medium
+phonon-backend-gstreamer (4:4.8.0-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix phonon-backend-gstreamer-common's Breaks and Replaces with
     << 4:4.8.0-2~ (Closes: #763604).
   * Update debian/copyright and switch it to format 1.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Oct 2014 15:03:03 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 01 Oct 2014 15:47:36 -0300
 
 phonon-backend-gstreamer (4:4.8.0-2) unstable; urgency=low
 

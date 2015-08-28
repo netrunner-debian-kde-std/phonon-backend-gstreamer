@@ -1,3 +1,10 @@
+phonon-backend-gstreamer (4:4.8.0-4) UNRELEASED; urgency=medium
+
+  * Make phonon4qt5-backend-gstreamer provide phonon4qt5-backend instead of
+    phonon-backend.
+
+ -- Felix Geyer <fgeyer@debian.org>  Fri, 28 Aug 2015 18:37:05 +0200
+
 phonon-backend-gstreamer (4:4.8.0-3) unstable; urgency=medium
 
   * Fix phonon-backend-gstreamer-common's Breaks and Replaces with

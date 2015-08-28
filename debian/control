@@ -85,7 +85,7 @@ Description: debugging symbols for the Phonon GStreamer 1.0 backend
 Package: phonon4qt5-backend-gstreamer
 Architecture: any
 Multi-Arch: same
-Provides: phonon-backend
+Provides: phonon4qt5-backend
 Pre-Depends: ${misc:Pre-Depends}
 Depends: phonon-backend-gstreamer-common (= ${binary:Version}),
          gstreamer1.0-pulseaudio |

@@ -1,5 +1,6 @@
-phonon-backend-gstreamer (4:4.8.0-4) UNRELEASED; urgency=medium
+phonon-backend-gstreamer (4:4.8.2-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
   * Make phonon4qt5-backend-gstreamer provide phonon4qt5-backend instead of
     phonon-backend.
   * Fix the watch file.

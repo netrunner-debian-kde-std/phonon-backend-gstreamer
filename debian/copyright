@@ -1,10 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: http://download.kde.org//stable/phonon/phonon-backend-gstreamer/*/phonon-backend-gstreamer-*.tar.xz
 
-Files: debian/*
-Copyright: 2008-2014 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-License: LGPL-2.1+
-
 Files: *
 Copyright: 2006-2008 Matthias Kretz <kretz@kde.org>
   2001 CodeFactory AB
@@ -39,6 +35,10 @@ Copyright: 2011 Alexander Neundorf <neundorf@kde.org>
   2008 Helio Chissini de Castro, <helio@kde.org>
   2010-2013 Harald Sitter <sitter@kde.org>
 License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2008-2014 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: LGPL-2.1+
 
 License: LGPL-2.1+
   This library is free software; you can redistribute it and/or
